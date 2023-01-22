@@ -2549,8 +2549,16 @@ int __cdecl main() noexcept
                                                                         wstrCommand.shrink_to_fit();
                                                                         {
                                                                             ::_wsystem(wstrCommand.c_str());
+                                                                            {
+                                                                                ::Sleep(5UL);
+                                                                            }
                                                                         }
                                                                     }
+                                                                }
+
+                                                                ::Sleep(5UL);
+                                                                {
+                                                                    ::std::wcout << ::std::endl;
                                                                 }
                                                             }
                                                         }

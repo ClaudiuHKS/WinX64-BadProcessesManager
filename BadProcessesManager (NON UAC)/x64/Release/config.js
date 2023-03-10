@@ -97,6 +97,8 @@
         "umrdpservice",     /// Remote Desktop Services UserMode Port Redirector
         "termservice",      /// Remote Desktop Services
 
+        "NVDisplay.ContainerLocalSystem",
+
         "cbdhsvc_"          /// Clipboard User Service_
     ]
 }
